@@ -1,0 +1,62 @@
+body{
+    background-color: black;
+}
+
+.ml2 {
+    
+    font-size: 150px;
+    color: turquoise;
+    padding: 1px;
+    font-family: cursive;
+
+  }
+  
+  .ml2 .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
+
+.nav{
+  color: aliceblue;
+  font-size: medium;
+  
+}
+
+.introTitle{
+  background-color: rgb(70, 70, 70);
+}
+
+.navBar{
+  background-color:rgb(99, 97, 97);
+  font-family: cursive;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+li{
+  float: left;
+}
+
+li a{
+  display: block;
+  color: beige;
+  text-align: center;
+  padding: 14px 90px;
+  text-decoration: none;
+}
+
+li a:hover{
+  background-color: black;
+}
+
+.text{
+  font-family: cursive;
+  color: beige;
+  
+}
