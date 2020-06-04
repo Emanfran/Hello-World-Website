@@ -1,0 +1,26 @@
+.underWork{
+    display: flex;
+    flex-direction: row;
+}
+
+.message{
+    width: 400px;
+    height: 250px;
+    padding: 10px;
+    margin: 100px;
+    background-color: #cccccc3f;
+    font-family: Graphik Web , sans-serif;
+    font-size: 20px;
+    font-weight: 180;
+    color: black;
+    
+    
+
+}
+
+.splash{
+    width: 600px;
+    
+
+}
+

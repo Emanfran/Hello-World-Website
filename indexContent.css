@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.infoPic{
+    width: 450px;
+    height: 450px;
+    display: inline-block;
+    
+}
+
+.logoLeft{
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+   
+}
+
+.MissionStatement{
+    width: 400px;
+    height: 250px;
+    padding: 10px;
+    margin: 100px;
+    background-color: #cccccc3f;
+    font-family: Graphik Web , sans-serif;
+    font-size: 20px;
+    font-weight: 180;
+    color: black;
+    
+    
+
+}
+
+.Github{
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+}
+
+.githubImg{
+    width: 450px;
+    height: 450px;
+    display: block;
+    padding: 60px;
+    margin-left: 150px;
+}
+
+.help{
+    
+    width: 400px;
+    height: 250px;
+    padding: 10px;
+    margin: 100px;
+    background-color: #cccccc3f;
+    font-family: Graphik Web , sans-serif;
+    font-size: 20px;
+    font-weight: 180;
+    color: black;
+    
+
+}
+
+.firefox{
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+    
+}
