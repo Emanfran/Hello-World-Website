@@ -15,8 +15,7 @@
 }
 
 .projectH{
-    color:#ffffffc5;
-    text-shadow: aqua;
+    color:#ffffff;
     font-weight: 2rem;
     font-size: 50px;
     font-family: Helvetica, sans-serif;
@@ -33,7 +32,7 @@
 .grid{
     display: grid;
     grid-template-columns: [first] 450px [line2] auto ;
-    grid-template-rows: [row1-start] 550px [row1-end] 550px [lastline] auto;
+    grid-template-rows: [row1-start] 550px [row1-end] 550px [row2-start] 550px;
 }
 
 .text{
@@ -52,7 +51,7 @@
     grid-column-start: line1;
     grid-column-end: end;
     grid-row-start: row1-end;
-    grid-row-end: lastline;
+    grid-row-end: row2-start;
     justify-self: end;
     padding: 10px;
     
@@ -66,6 +65,43 @@
     padding: 100px;
     
     
+}
+
+.firefox{
+    grid-column-start: first;
+    grid-column-end: 4 ;
+    grid-row-start: auto;
+    grid-row-end: auto ;
+
+    background-color: #47009e;
+    padding: 10px;
+   
+
+}
+.ffText{
+    grid-column-start: line1;
+    grid-column-end:5;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    padding: 100px;
+    background-color: #47009e;
+    justify-content: end;
+    width:auto
+    
+}
+
+.firefoxImg{
+    width: 400px;
+    height: 400px;
+    
+}
+
+.ffTextStyle{
+    color:#2aacfa;
+    font-weight: 2rem;
+    font-size: 50px;
+    font-family: Helvetica, sans-serif;
+
 }
 
 
