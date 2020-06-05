@@ -3,56 +3,74 @@
     padding: 0;
 
 }
-.content{
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-}
+/*Project H Logo size*/
 .infoPic{
     width: 450px;
     height: 450px;
-    display: inline-block;
-    
+    grid-column-start: 1;
+    grid-column-end: line1;
+    grid-row-start: row1-start;
+    justify-self: stretch;
+    padding: 0px;
 }
 
-.logoLeft{
-    display: flex;
-    flex-direction: row;
-    height: 50%;
-   
+.projectH{
+    color:#ffffffc5;
+    text-shadow: aqua;
+    font-weight: 2rem;
+    font-size: 50px;
+    font-family: Helvetica, sans-serif;
 }
 
-.MissionStatement{
-    width: 400px;
-    height: 250px;
-    padding: 10px;
-    margin: 100px;
-    background-color: #cccccc3f;
-    font-family: Graphik Web , sans-serif;
-    font-size: 20px;
-    font-weight: 180;
-    color: black;
-    
-    
-
+.content{
+    background-color: black;
+    padding: 0px;
+    margin: 0px;
+    width: auto;
+    height: 550px;
 }
 
-.Github{
-    display: flex;
-    flex-direction: row;
-    height: 50%;
+.grid{
+    display: grid;
+    grid-template-columns: [first] 450px [line2] auto ;
+    grid-template-rows: [row1-start] 550px [row1-end] 550px [lastline] auto;
 }
 
-.githubImg{
+.text{
+    grid-column-start: line1;
+    grid-column-end: end;
+    grid-row-start: row1-start;
+    grid-row-end: row1-end;
+    justify-self: center;
+    padding: 100px;
+}
+.githubIcon{
     width: 450px;
     height: 450px;
-    display: block;
-    padding: 60px;
-    margin-left: 150px;
+}
+.github{
+    grid-column-start: line1;
+    grid-column-end: end;
+    grid-row-start: row1-end;
+    grid-row-end: lastline;
+    justify-self: end;
+    padding: 10px;
+    
 }
 
-.help{
+.githubText{
+    grid-column-start: first;
+    grid-column-end: line1;
+    grid-row-start: row1-end;
+    justify-content: center;
+    padding: 100px;
     
+    
+}
+
+
+/*This class is for features that are not yet available */
+.help{ 
     width: 400px;
     height: 250px;
     padding: 10px;
@@ -64,11 +82,4 @@
     color: black;
     
 
-}
-
-.firefox{
-    width: 400px;
-    height: 400px;
-    padding: 10px;
-    
 }
